@@ -1,0 +1,50 @@
+{
+  "__v": 0,
+  "_id": "58ff73d11765a998979a3397",
+  "description": "Two rooms in Gambetta. A bedroom and a living room with open kitchen. Bathroom with toilet and bath. Several shops all along the street. Close to Père Lachaise cemetery, Belleville, and Parc des Buttes Chaumont. Very calm.",
+  "location": [
+    2.3981123,
+    48.8613664
+  ],
+  "photos": [
+     {
+      "picture_id": "93801377",
+      "url": "https://a2.muscache.com/im/pictures/93801377/82b55123_original.jpg",
+    },
+     {
+      "picture_id": "93801440",
+      "url": "https://a2.muscache.com/im/pictures/93801440/8198ed7e_original.jpg",
+    },
+     {
+      "picture_id": "93801405",
+      "url": "https://a1.muscache.com/im/pictures/93801405/599ba94f_original.jpg",
+    },
+     {
+      "picture_id": "93801478",
+      "url": "https://a0.muscache.com/im/pictures/93801478/a1ad2ca8_original.jpg",
+    }
+  ],
+  "price": 120,
+  "ratingValue": 4,
+  "reviews": 5,
+  "title": "Gambetta, Paris",
+  "user":  {
+    "__v": 0,
+    "_id": "58ff73cc1765a998979a338d",
+    "account":  {
+      "description": "I love cooking and travelling. I would be very happy to share with you my flat in Paris. I travel a lot for work and i don't often live in my apt.",
+      "photo":  {
+        "picture_id": "29318295",
+        "url": "https://a1.muscache.com/im/users/29318295/profile_pic/1426344329/original.jpg?aki_policy=profile_x_medium",
+      },
+      "username": "Charles",
+    },
+    "email": "charles@airbnb-api.com",
+    "hash": "6SOq7rXzoNma1yR/iMoeu9u9ls2TQYd7lrchn1aDHSI=",
+    "rooms": [
+      "58ff73d11765a998979a3397",
+    ],
+    "salt": "2HbgdPPy2dQcefpd8FatXyQQaaxMgbUIXjrtPCAyOgEn6NzSUaKWF70rUHyEHfJy",
+    "token": "rX3fnkO3y2uZ7TzeU0w5Oey5GpVO4ErJXyqtdRis8sGFu3YFcP0SkOA4jeuqr6gm",
+  }
+}
