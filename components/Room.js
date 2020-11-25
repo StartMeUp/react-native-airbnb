@@ -1,9 +1,10 @@
 import React from "react";
 import { Text, View, Image, StyleSheet, ImageBackground } from "react-native";
-import utils from "../../assets/style";
+import utils from "../assets/style";
 import { FontAwesome } from "@expo/vector-icons";
 
 const Room = ({ photo, price, ratingValue, reviews, title, avatar }) => {
+  console.log("Composant Room.js");
   return (
     <View style={styles.roomCard}>
       <ImageBackground source={photo} style={styles.roomPhoto}>
