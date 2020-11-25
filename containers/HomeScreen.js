@@ -27,15 +27,16 @@ export default function HomeScreen() {
         data={data}
         keyExtractor={(item) => item._id}
         renderItem={({ item }) => {
-          console.log("flatList =>", item._id);
-          <Room
-            photo={item.photos[0].url}
-            price={item.price}
-            ratingValue={item.ratingValue}
-            reviews={item.reviews}
-            title={item.title}
-            avatar={item.user.account.photo.url}
-          />;
+          console.log("flatList =>", item.title);
+          <Text>{item._id}</Text>;
+          // <Room
+          //   photo={item.photos[0].url}
+          //   price={item.price}
+          //   ratingValue={item.ratingValue}
+          //   reviews={item.reviews}
+          //   title={item.title}
+          //   avatar={item.user.account.photo.url}
+          // />;
         }}
       />
     </>
