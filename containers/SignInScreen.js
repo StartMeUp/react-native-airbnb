@@ -15,8 +15,8 @@ import { KeyboardAwareScrollView } from "react-native-keyboard-aware-scroll-view
 
 export default function SignInScreen({ setToken }) {
   const navigation = useNavigation();
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("nono@airbnb-api.com");
+  const [password, setPassword] = useState("pass");
   return (
     <KeyboardAwareScrollView contentContainerStyle={utils.fullScreen}>
       <SafeAreaView style={utils.fullScreen}>
@@ -54,7 +54,7 @@ export default function SignInScreen({ setToken }) {
             <TouchableOpacity
               onPress={async () => {
                 try {
-                  const response = await axios.get(
+                  const response = await axios.post(
                     "https://express-airbnb-api.herokuapp.com/user/log_in",
                     { email, password },
                     {
@@ -63,13 +63,11 @@ export default function SignInScreen({ setToken }) {
                       },
                     }
                   );
-                  //console.log(response.data);
                   const userToken = response.data.token;
                   setToken(userToken);
                   alert("Succes, you're logged in !");
                 } catch (error) {
-                  console.log(error.message);
-                  alert("Error, try again");
+                  alert(error.message);
                 }
               }}
             >
